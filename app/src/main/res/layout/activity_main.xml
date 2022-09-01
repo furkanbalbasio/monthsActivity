@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/julyButton"
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="24dp"
+        android:onClick="julyButtonClick"
+        android:text="7- July"
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aprilButton" />
+
+    <Button
+        android:id="@+id/octoberButton"
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="24dp"
+        android:onClick="octoberButtonClick"
+        android:text="10- October"
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/julyButton" />
+
+    <Button
+        android:id="@+id/augustButton"
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="25dp"
+        android:onClick="augustButtonClick"
+        android:text="8- August"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toStartOf="@+id/marchButton"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toEndOf="@+id/januaryButton"
+        app:layout_constraintTop_toBottomOf="@+id/mayButton" />
+
+    <Button
+        android:id="@+id/decemberButton"
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="25dp"
+        android:onClick="decemberButtonClick"
+        android:text="12- December"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/septemberButton" />
+
+    <Button
+        android:id="@+id/novemberButton"
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="25dp"
+        android:onClick="novemberButtonClick"
+        android:text="11- November"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toStartOf="@+id/marchButton"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toEndOf="@+id/januaryButton"
+        app:layout_constraintTop_toBottomOf="@+id/augustButton" />
+
+    <Button
+        android:id="@+id/septemberButton"
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="25dp"
+        android:onClick="septemberButtonClick"
+        android:text="9- September"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/juneButton" />
+
+    <Button
+        android:id="@+id/aprilButton"
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="24dp"
+        android:onClick="aprilButtonClick"
+        android:text="4- Aprıl"
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/januaryButton" />
+
+    <Button
+        android:id="@+id/mayButton"
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="25dp"
+        android:onClick="mayButtonClick"
+        android:text="5- May"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toStartOf="@+id/marchButton"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toEndOf="@+id/januaryButton"
+        app:layout_constraintTop_toBottomOf="@+id/februaryButton" />
+
+    <Button
+        android:id="@+id/juneButton"
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="25dp"
+        android:onClick="juneButtonClick"
+        android:text="6- June"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/marchButton" />
+
+    <Button
+        android:id="@+id/januaryButton"
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="24dp"
+        android:onClick="januaryButtonClick"
+        android:text="1- January"
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/februaryButton"
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="25dp"
+        android:onClick="februaryButtonClick"
+        android:text="2- February"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toStartOf="@+id/marchButton"
+        app:layout_constraintStart_toEndOf="@+id/januaryButton"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/marchButton"
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="25dp"
+        android:onClick="marchButtonClick"
+        android:text="3- March"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
